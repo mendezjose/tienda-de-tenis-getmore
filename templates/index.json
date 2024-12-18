@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest p",
+            "heading": "Las mejores raquetas para jugar Tennis",
             "heading_size": "h0"
           }
         },
@@ -36,6 +36,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/group_2x_003bbb76-d62d-425f-96ff-5c712d7003b4.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
