@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        counter: 'src/main.tsx',
+        navbar: 'src/navbar/main.tsx',
       },
       output: {
         dir: 'assets',
