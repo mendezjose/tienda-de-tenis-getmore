@@ -77,7 +77,7 @@
 /* base */
 
 main {
-  margin-top: -80px;
+  margin-top: -85px;
 }
 
 #shopify-section-navbar {
@@ -2349,7 +2349,12 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  /* background-color: rgb(var(--color-background)); */
+  background-color: transparent !important;
+}
+
+.header-wrapper * {
+  color: white !important;
 }
 
 .header-wrapper--border-bottom {
@@ -2798,9 +2803,10 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 1.2rem 0;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  margin-right: 5rem;
 }
 
 .header__menu-item:hover {
@@ -3592,4 +3598,38 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueUltraLight.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueLight.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueRoman.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueMedium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueBold.otf') format('opentype');
+  font-weight: 700;
+}
+
+* {
+  font-family: 'HelveticaNeue' !important;
 }

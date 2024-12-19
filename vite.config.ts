@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         navbar: 'src/navbar/main.tsx',
+        hero: 'src/hero/main.tsx',
       },
       output: {
         dir: 'assets',

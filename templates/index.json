@@ -15,14 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Las mejores raquetas para jugar Tennis",
-            "heading_size": "h0"
+            "heading": "Las mejores raquetas para jugar ",
+            "heading_size": "h0",
+            "heading_span": "Tennis"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Acerca de nosotros",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -31,10 +32,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+      "block_order": ["heading", "button"],
       "settings": {
         "image": "shopify://shop_images/group_2x_003bbb76-d62d-425f-96ff-5c712d7003b4.png",
         "image_overlay_opacity": 40,
@@ -78,8 +76,5 @@
       }
     }
   },
-  "order": [
-    "image_banner",
-    "featured_collection"
-  ]
+  "order": ["image_banner", "featured_collection"]
 }

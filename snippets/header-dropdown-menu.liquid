@@ -5,7 +5,24 @@
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
 
-<nav class="header__inline-menu">
+<style>
+  .logo-icon{
+    display: none;
+    position: absolute; 
+    left: -130px; 
+    top:0;
+  }
+  @media screen and (min-width: 1400px) {
+    .logo-icon{
+      display: block;
+    }
+  }
+</style>
+
+<nav style="position: relative" class="header__inline-menu">
+  <div class="logo-icon">
+    <img src="{{ 'ball.png' | asset_url }}" width="37px" height="37px">
+  </div>
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>

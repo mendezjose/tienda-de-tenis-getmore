@@ -1,4 +1,4 @@
-import './Navbar.scss';
+import './Hero.scss';
 import ball from './ball.png';
 
 function Navbar() {

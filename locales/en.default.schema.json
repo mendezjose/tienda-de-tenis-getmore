@@ -1288,6 +1288,10 @@
             "heading": {
               "label": "Heading",
               "default": "Image banner"
+            },
+            "heading_span": {
+              "label": "Heading",
+              "default": "Tennis"
             }
           }
         },
