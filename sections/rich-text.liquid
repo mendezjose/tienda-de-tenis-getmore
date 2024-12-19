@@ -14,41 +14,16 @@
   }
 {%- endstyle -%}
 
-<style>
-  .richtext-custom-button {
-    color: black;
-    gap: 10px !important;
-    display: flex !important;
-    align-items: center !important;
-    border: solid 1px black !important;
-    border-radius: 26.5px !important;
-    padding: 18px 39px 15px 30px !important;
-    text-transform: uppercase !important;
-    text-decoration: none !important;
-    font-weight: 400 !important;
-    font-size: 13px !important;
-    font-weight: bold !important;
-    font-stretch: normal !important;
-    font-style: normal !important;
-    line-height: 10.71px !important;
-    letter-spacing: 1.01px !important;
-    min-width: 234px !important;
-    justify-content: space-between !important;
-}
-.richtext-custom-button svg {
-  margin-top: -4px;
-}
-</style>
-
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
-      <div class="rich-text__blocks {{ section.settings.content_alignment }}">
+      <div class="custom-rich-text__blocks rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
+              <div class="pre-heading">TENNIS</div>
               <h2
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="custom-rich-text__heading rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -70,7 +45,7 @@
               </p>
             {%- when 'text' -%}
               <div
-                class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="custom-rich-text__text rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -81,7 +56,7 @@
               </div>
             {%- when 'button' -%}
               <div
-                class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="custom-rich-text__buttons rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -97,7 +72,7 @@
                     {% endif %}
                     class="richtext-custom-button">
                     {{- block.settings.button_label | escape -}}
-                    {{- 'icon-arrow.svg' | inline_asset_content -}}
+                    {{- 'icon-long-arrow.svg' | inline_asset_content -}}
                   </a>
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
