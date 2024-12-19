@@ -30,3 +30,30 @@
 .list-social__link:hover .icon {
   transform: scale(1.07);
 }
+
+.custom-list-social__link {
+  color: white !important;
+}
+
+.custom-list-social__item {
+  border: 1px solid white !important;
+  border-radius: 100% !important;
+  padding: 0 !important;
+}
+
+.custom-list-social__item a {
+  padding: 0.5rem !important;
+}
+
+.custom-list-social__item a {
+  padding: 0.75rem !important;
+}
+
+.custom-list-social__item a .svg-wrapper {
+  width: 14px;
+  height: 14px;
+}
+
+.custom-list-social {
+  gap: 12px;
+}

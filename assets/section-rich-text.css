@@ -87,11 +87,11 @@
 }
 
 .richtext-custom-button {
-  color: black;
+  color: #282e47 !important;
   gap: 10px !important;
   display: flex !important;
   align-items: center !important;
-  border: solid 1px black !important;
+  border: solid 1px #282e47 !important;
   border-radius: 26.5px !important;
   padding: 18px 39px 15px 30px !important;
   text-transform: uppercase !important;
@@ -112,6 +112,7 @@
 
 .custom-rich-text__heading {
   max-width: 420px !important;
+  color: #282e47 !important;
 }
 
 .custom-rich-text__buttons {
@@ -119,6 +120,7 @@
   bottom: -20px !important;
   right: 80px !important;
   width: auto !important;
+  color: #282e47 !important;
 }
 
 @media screen and (min-width: 990px) {
@@ -129,6 +131,7 @@
 
 .custom-rich-text__text {
   max-width: 350px !important;
+  color: #787878 !important;
 }
 
 .custom-rich-text__blocks {

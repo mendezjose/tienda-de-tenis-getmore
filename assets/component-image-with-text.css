@@ -414,4 +414,20 @@
 
 .custom-image-with-text__media {
   border: 0 !important;
+  min-height: 39rem !important;
+  padding-bottom: 0 !important;
+}
+
+.custom-image-with-text__media img {
+  object-position: left center;
+}
+
+@media screen and (min-width: 750px) {
+  .custom-image-with-text__media {
+    min-height: 586px !important;
+  }
+
+  .custom-image-with-text__media img {
+    object-position: center center;
+  }
 }
