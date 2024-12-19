@@ -258,9 +258,7 @@
   .image-with-text.collapse-corners:not(.image-with-text--overlap)
     .image-with-text__grid--reverse
     .image-with-text__text-item:after,
-  .image-with-text.collapse-corners:not(.image-with-text--overlap)
-    .image-with-text__grid--reverse
-    .image-with-text__content,
+  .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__grid--reverse .image-with-text__content,
   .image-with-text.collapse-corners:not(.image-with-text--overlap)
     .image-with-text__grid--reverse
     .image-with-text__content:after {
@@ -280,9 +278,7 @@
   .image-with-text.collapse-corners:not(.image-with-text--overlap)
     .image-with-text__grid--reverse
     .image-with-text__media-item:after,
-  .image-with-text.collapse-corners:not(.image-with-text--overlap)
-    .image-with-text__grid--reverse
-    .image-with-text__media,
+  .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__grid--reverse .image-with-text__media,
   .image-with-text.collapse-corners:not(.image-with-text--overlap)
     .image-with-text__grid--reverse
     .image-with-text__media
@@ -414,4 +410,8 @@
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
   }
+}
+
+.custom-image-with-text__media {
+  border: 0 !important;
 }
