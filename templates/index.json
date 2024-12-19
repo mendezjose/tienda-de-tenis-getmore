@@ -120,53 +120,51 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_84tiKW": {
-      "type": "image-banner",
+    "image_with_text_Fk8zAr": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_JGbN43": {
+        "heading_Et7zgw": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_span": "Tennis"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "text_pcCx6A": {
+        "text_DwWGjH": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
-        "buttons_xqQBtX": {
-          "type": "buttons",
+        "button_QAaJ6Y": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_JGbN43",
-        "text_pcCx6A",
-        "buttons_xqQBtX"
+        "heading_Et7zgw",
+        "text_DwWGjH",
+        "button_QAaJ6Y"
       ],
       "settings": {
         "image": "shopify://shop_images/action-athlete-ball.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -174,6 +172,6 @@
     "image_banner",
     "rich_text_WRYLBB",
     "featured_collection",
-    "image_banner_84tiKW"
+    "image_with_text_Fk8zAr"
   ]
 }
