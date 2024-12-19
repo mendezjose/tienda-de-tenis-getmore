@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Las mejores raquetas para jugar ",
+            "heading": "Las mejores raquetas para jugar",
             "heading_size": "h0",
             "heading_span": "Tennis"
           }
@@ -32,7 +32,10 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/group_2x_003bbb76-d62d-425f-96ff-5c712d7003b4.png",
         "image_overlay_opacity": 40,
@@ -45,6 +48,48 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_WRYLBB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dJcbLt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Raquetas.Accesorios.Pelotas.",
+            "heading_size": "h1"
+          }
+        },
+        "text_eUn9bG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>"
+          }
+        },
+        "button_ayntHq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Historia",
+            "button_link": "shopify://policies/privacy-policy",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dJcbLt",
+        "text_eUn9bG",
+        "button_ayntHq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -76,5 +121,9 @@
       }
     }
   },
-  "order": ["image_banner", "featured_collection"]
+  "order": [
+    "image_banner",
+    "rich_text_WRYLBB",
+    "featured_collection"
+  ]
 }
