@@ -97,3 +97,33 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.custom-slider-component {
+  display: flex;
+  width: 100%;
+}
+
+.custom-slider-component .slider-controls {
+  width: 30%;
+}
+
+.custom-slider-component .slider-content {
+  width: 70%;
+}
+
+.slider-controls {
+  width: 36%;
+  position: relative;
+}
+
+.slider-controls * {
+  color: white !important;
+}
+
+.slider-controls img {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  object-fit: cover !important;
+  z-index: -1;
+}
