@@ -111,6 +111,21 @@
   width: 70%;
 }
 
+.custom-slider-component .slider-content ul {
+  margin-bottom: 2vw !important;
+  margin-top: 2vw !important;
+  column-gap: 2vw !important;
+}
+
+.custom-slider-component .slider-content ul li .card__inner {
+  background-color: white;
+  border-radius: 2vw;
+}
+
+.custom-slider-component .slider-content ul li * {
+  overflow: hidden !important;
+}
+
 .slider-controls {
   width: 36%;
   position: relative;
@@ -122,20 +137,22 @@
 
 .slider-controls > div {
   width: 57%;
+  height: 100%;
   margin-left: auto;
-  margin-right: 37px;
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .slider-controls .title {
   font-size: 2.8vw;
-}
-
-.slider-controls .title {
-  font-size: 2.8vw;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 .slider-controls .collection__description {
-  font-size: 18px;
+  font-size: 1vw;
 }
 
 .slider-controls img {
@@ -144,4 +161,57 @@
   position: absolute !important;
   object-fit: cover !important;
   z-index: -1;
+}
+
+.slider-controls .slider-button:first-of-type {
+  margin-right: 1vw;
+}
+
+.slider-controls .slider-button {
+  background-color: #cbe346;
+  border-radius: 100%;
+  width: 3vw;
+  height: 3vw;
+}
+
+.slider-controls .slider-button:disabled {
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+.slider-controls .slider-buttons {
+  justify-content: start !important;
+  margin-top: 1vw;
+}
+
+.slider-controls .slider-buttons .slider-button .svg-wrapper {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+
+.slider-controls .slider-buttons .slider-button .icon {
+  width: 1vw !important;
+  height: 1vw !important;
+}
+
+@media screen and (min-width: 990px) {
+  .custom-slider-component .slider-content ul li:first-child {
+    margin-left: 2vw !important;
+    scroll-margin-left: 2vw !important;
+  }
+}
+
+.card-index-number {
+  width: 2.5vw;
+  height: 2.5vw;
+  position: absolute;
+  z-index: 2;
+  background-color: #cbe346;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  margin: 1vw;
+  font-size: 1vw;
 }

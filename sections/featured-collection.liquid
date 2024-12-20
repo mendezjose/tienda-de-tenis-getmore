@@ -65,15 +65,8 @@
     class="collection{% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %} section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}"
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
-  >
-
-
-
-
-      
+  >      
       <slider-component class="custom-slider-component slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      
-
           <div class="slider-controls">
             <img src="{{ 'ball-color-court.png' | asset_url }}" width="1590px" height="1404px"  alt="tennis-court">
             <div>
@@ -105,7 +98,7 @@
                     aria-controls="Slider-{{ section.id }}"
                   >
                     <span class="svg-wrapper">
-                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {{- 'down-arrow.svg' | inline_asset_content -}}
                     </span>
                   </button>
                   {% comment %} <div class="slider-counter caption">
@@ -122,7 +115,7 @@
                     aria-controls="Slider-{{ section.id }}"
                   >
                     <span class="svg-wrapper">
-                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {{- 'down-arrow.svg' | inline_asset_content -}}
                     </span>
                   </button>
                 </div>
@@ -157,7 +150,8 @@
                 show_rating: section.settings.show_rating,
                 skip_styles: skip_card_product_styles,
                 section_id: section.id,
-                quick_add: section.settings.quick_add
+                quick_add: section.settings.quick_add,
+                index: forloop.index
               %}
             </li>
             {%- assign skip_card_product_styles = true -%}
