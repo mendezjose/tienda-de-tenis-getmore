@@ -120,6 +120,24 @@
   color: white !important;
 }
 
+.slider-controls > div {
+  width: 57%;
+  margin-left: auto;
+  margin-right: 37px;
+}
+
+.slider-controls .title {
+  font-size: 2.8vw;
+}
+
+.slider-controls .title {
+  font-size: 2.8vw;
+}
+
+.slider-controls .collection__description {
+  font-size: 18px;
+}
+
 .slider-controls img {
   width: 100% !important;
   height: 100% !important;
