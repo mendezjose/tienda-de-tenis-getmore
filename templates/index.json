@@ -95,7 +95,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nuestras Raquetas",
+        "title": "Nuestras <strong>Raquetas</strong>",
         "heading_size": "h2",
         "description": "<p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>",
         "show_description": false,
