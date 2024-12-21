@@ -2353,12 +2353,40 @@ input[type='checkbox'] {
   background-color: transparent !important;
 }
 
-.header-wrapper * {
+.header__menu-item span {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 300;
+}
+
+.header__menu-item .header__active-menu-item {
+  font-weight: 500;
+}
+
+.header__menu-item .header__active-menu-item::after {
+  content: '';
+  width: 20px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-bottom: 2px solid white;
+}
+
+.header__icon {
   color: white !important;
 }
 
-.header-wrapper #HeaderLanguageList a span {
-  color: black !important;
+.localization-form__select:hover {
+  text-decoration: none !important;
+}
+
+.localization-form__select span {
+  color: white !important;
+}
+
+.localization-form__select svg {
+  color: white !important;
 }
 
 .header-wrapper--border-bottom {
