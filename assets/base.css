@@ -2363,7 +2363,7 @@ input[type='checkbox'] {
   font-weight: 700;
 }
 
-.header__menu-item .header__active-menu-item::after {
+.header__inline-menu .list-menu .header__active-menu-item::after {
   content: '';
   width: 20px;
   height: 0;
