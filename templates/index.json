@@ -63,13 +63,13 @@
         "text_eUn9bG": {
           "type": "text",
           "settings": {
-            "text": "<p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>"
+            "text": "<p>Get to know our rackets and learn to play Tennis like a professional.</p>"
           }
         },
         "button_ayntHq": {
           "type": "button",
           "settings": {
-            "button_label": "Historia",
+            "button_label": "History",
             "button_link": "shopify://policies/privacy-policy",
             "button_style_secondary": true,
             "button_label_2": "",
