@@ -593,3 +593,8 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.custom-card-information {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
