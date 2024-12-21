@@ -104,11 +104,11 @@
 }
 
 .custom-slider-component .slider-controls {
-  width: 30%;
+  width: 32%;
 }
 
 .custom-slider-component .slider-content {
-  width: 70%;
+  width: 68%;
 }
 
 .custom-slider-component .slider-content ul {
@@ -194,13 +194,6 @@
   height: 1vw !important;
 }
 
-@media screen and (min-width: 990px) {
-  .custom-slider-component .slider-content ul li:first-child {
-    margin-left: 2vw !important;
-    scroll-margin-left: 2vw !important;
-  }
-}
-
 .card-index-number {
   width: 2.5vw;
   height: 2.5vw;
@@ -214,4 +207,11 @@
   color: white;
   margin: 1vw;
   font-size: 1vw;
+}
+
+@media screen and (min-width: 990px) {
+  .custom-slider-component .slider-content ul li:first-child {
+    margin-left: 2vw !important;
+    scroll-margin-left: 2vw !important;
+  }
 }
