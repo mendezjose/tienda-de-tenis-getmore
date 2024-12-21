@@ -4,8 +4,12 @@
   flex-direction: column;
   z-index: auto;
   isolation: isolate;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+@media only screen and (min-width: 1400px) {
+  .banner {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
 }
 
 .banner__box {
