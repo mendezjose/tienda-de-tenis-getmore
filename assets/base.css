@@ -2357,6 +2357,10 @@ input[type='checkbox'] {
   color: white !important;
 }
 
+.header-wrapper #HeaderLanguageList a span {
+  color: black !important;
+}
+
 .header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
