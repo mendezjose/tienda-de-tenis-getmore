@@ -113,6 +113,7 @@
 .custom-rich-text__heading {
   max-width: 420px !important;
   color: #282e47 !important;
+  word-spacing: -10px !important;
 }
 
 .custom-rich-text__buttons {
