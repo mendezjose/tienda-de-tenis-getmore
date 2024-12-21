@@ -2356,11 +2356,11 @@ input[type='checkbox'] {
 .header__menu-item span {
   color: white !important;
   text-decoration: none !important;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .header__menu-item .header__active-menu-item {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .header__menu-item .header__active-menu-item::after {
