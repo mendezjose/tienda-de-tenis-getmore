@@ -56,7 +56,7 @@
         "heading_dJcbLt": {
           "type": "heading",
           "settings": {
-            "heading": "Raquets.Accesories.Balls.",
+            "heading": "Rackets.Accesories.Balls.",
             "heading_size": "h1"
           }
         },
@@ -95,9 +95,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nuestras <strong>Raquetas</strong>",
+        "title": "Our <strong>Rackets</strong>",
         "heading_size": "h2",
-        "description": "<p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>",
+        "description": "<p>Get to know our rackets and learn to play Tennis like a professional.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
